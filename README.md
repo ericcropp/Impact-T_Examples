@@ -19,4 +19,4 @@ Finally, to work without changing the mpi_command, you must have access to s3df 
 
 For these notebooks to work well on s3df, use the following command from iana on s3df
 
-srun --partition milano --account <account> -N 1 -n 1 --cores-per-task <n_tasks> --time HH:MM:SS --pty /bin/bash
+srun --partition milano --account <account> -N 1 -n 1 --cpus-per-task <n_tasks> --time HH:MM:SS --pty /bin/bash
